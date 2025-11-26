@@ -69,7 +69,7 @@ const Pricing: React.FC = () => {
 
             <div className="flex items-center p-6 pt-0 flex-col gap-2 mt-auto">
               <a 
-                href="https://checkout.caoamigao.sbs/VCCL1O8SCI58" 
+                href="https://www.ggcheckout.com/checkout/v2/M8GnCHL8upaT4iDR1jvB" 
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap h-14 rounded-md px-8 w-full font-bold text-xl bg-[#4ade80] hover:bg-[#4ade80]/90 text-[#064e3b] shadow-lg transition-all animate-pulse hover:animate-none"
               >
                 QUERO O INTENSIVO
@@ -170,14 +170,14 @@ const Pricing: React.FC = () => {
               </div>
 
               <a 
-                href="https://checkout.caoamigao.sbs/VCCL1O8SCI9M"
+                href="https://www.ggcheckout.com/checkout/v2/cktnmoq28fLTeI2lvCcI"
                 className="w-full bg-[#4ade80] hover:bg-[#22c55e] text-[#064e3b] font-black text-xl py-4 px-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all uppercase mt-2"
               >
                 SIM, QUERO O COMPLETO!
               </a>
 
               <a 
-                href="https://checkout.caoamigao.sbs/VCCL1O8SCI5W"
+                href="https://www.ggcheckout.com/checkout/v2/myRCEEneK0EKHYyoZ9M4"
                 className="text-gray-500 hover:text-gray-700 underline text-sm hover:no-underline font-medium mt-2"
               >
                 Não, obrigado. Quero apenas o básico.

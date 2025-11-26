@@ -20,7 +20,7 @@ const testimonials = [
   {
     text: "Meu bulldog francês sofria com alergias terríveis. O protocolo mudou a vida dele. Hoje ele é um cão feliz e sem coceiras. Recomendo demais!",
     name: "Juliana Costa — SP",
-    image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1763935714/wmremove-transformed_jklmnb.jpg"
+    image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1762217432/drafoto2_gh6rtj.png"
   }
 ];
 
