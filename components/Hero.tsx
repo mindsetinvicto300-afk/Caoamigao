@@ -44,17 +44,16 @@ const Hero: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-4 w-full max-w-[400px] mx-auto shadow-2xl rounded-lg overflow-hidden">
-          <div style={{ position: 'relative', width: '100%', height: '0px', paddingBottom: '177.778%' }}>
-            <iframe 
-              allow="fullscreen" 
-              allowFullScreen 
-              height="100%" 
-              src="https://streamable.com/e/5j18f9?loop=0" 
-              width="100%" 
-              style={{ border: 'none', width: '100%', height: '100%', position: 'absolute', left: '0px', top: '0px', overflow: 'hidden' }}
-            ></iframe>
-          </div>
+        <div className="mt-4 w-full max-w-[360px] mx-auto shadow-2xl rounded-lg overflow-hidden">
+          <iframe
+            src="https://player.cloudinary.com/embed/?cloud_name=ddoqlftps&public_id=FINAL_kh5tcn&profile=cld-default"
+            width="360"
+            height="640"
+            style={{ height: 'auto', width: '100%', aspectRatio: '9 / 16' }}
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowFullScreen
+            frameBorder="0"
+          ></iframe>
         </div>
 
         <div className="flex flex-col items-center gap-4 mt-8">
