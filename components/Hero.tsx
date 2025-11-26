@@ -22,12 +22,9 @@ const Hero: React.FC = () => {
         />
         
         <div className="max-w-4xl">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
-            Diga Adeus à Coceira, Feridas e Sofrimento do Seu Cão — De Forma <span className="text-yellow-400">Natural, Rápida e Comprovada</span>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+            O Protocolo Natural Testado por Veterinários Que <span className="text-yellow-400">Devolve a Pele Saudável e o Bem-Estar do Seu Cão em Até 48h!</span>
           </h1>
-          <p className="mt-4 text-base md:text-lg max-w-3xl mx-auto text-white/90">
-            Milhares de papais e mamães de pet já estão tratando a dermatite canina em casa de forma fácil, natural e com ingredientes baratos.
-          </p>
         </div>
 
         <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4 w-full">
@@ -35,7 +32,7 @@ const Hero: React.FC = () => {
             { icon: <Clock className="h-5 w-5 text-yellow-400" />, text: "Alívio em 48h" },
             { icon: <Wallet className="h-5 w-5 text-yellow-400" />, text: "Ingredientes Acessíveis" },
             { icon: <Apple className="h-5 w-5 text-yellow-400" />, text: "Receitas Saudáveis" },
-            { icon: <HeartPulse className="h-5 w-5 text-yellow-400" />, text: "Aumenta a Longevidade Canina" }
+            { icon: <HeartPulse className="h-5 w-5 text-yellow-400" />, text: "Aumenta a Longevidade" }
           ].map((item, index) => (
             <div key={index} className="bg-white/10 p-3 rounded-lg flex flex-col md:flex-row items-center justify-center gap-2 text-sm backdrop-blur-sm">
               {item.icon}
@@ -44,7 +41,7 @@ const Hero: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-4 w-full max-w-[360px] mx-auto shadow-2xl rounded-lg overflow-hidden">
+        <div className="mt-4 w-full max-w-[360px] mx-auto shadow-2xl rounded-lg overflow-hidden relative group">
           <iframe
             src="https://player.cloudinary.com/embed/?cloud_name=ddoqlftps&public_id=FINAL_kh5tcn&profile=cld-default"
             width="360"

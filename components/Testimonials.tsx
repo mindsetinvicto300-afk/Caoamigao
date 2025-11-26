@@ -3,22 +3,17 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    text: "Meu Shih-tzu vivia se coçando, noites inteiras sem dormir. Em poucos dias de protocolo, a pele dele ficou outra! Nunca imaginei que fosse algo tão simples.",
+    text: "Meu Shih-tzu vivia se coçando e chorando à noite. Em poucos dias com o protocolo, a pele dele cicatrizou e ele voltou a brincar!",
     name: "Rafaela Almeida — MG",
     image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1762820181/552096127_24599170419724175_1185024553478868560_n_seswjm.jpg"
   },
   {
-    text: "Achei que ia gastar caro com alimentação e tratamentos, mas tudo é acessível e fácil de fazer. Meu pet melhorou muito!",
+    text: "Achei que teria que gastar caro em clínicas, mas tudo é natural e fácil de aplicar. Meu pet melhorou demais!",
     name: "Amanda Garcia — BA",
     image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1763262176/cropped_circle_image_3_jcb53q.png"
   },
   {
-    text: "Finalmente parei a queda de pelo e as feridinhas do meu pug. As receitas e sprays funcionam demais!",
-    name: "Maria Helena — RJ",
-    image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1763262001/Camilasbrandao2_jml96o.png"
-  },
-  {
-    text: "Meu bulldog francês sofria com alergias terríveis. O protocolo mudou a vida dele. Hoje ele é um cão feliz e sem coceiras. Recomendo demais!",
+    text: "Meu bulldog sofria com alergias terríveis. Hoje ele é outro cão. Recomendo de olhos fechados.",
     name: "Juliana Costa — SP",
     image: "https://res.cloudinary.com/ddoqlftps/image/upload/v1762217432/drafoto2_gh6rtj.png"
   }
@@ -30,13 +25,12 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 flex items-center justify-center gap-2">
-            <span className="text-2xl">💬</span> VEJA O QUE TUTORES JÁ ESTÃO RELATANDO
+            <span className="text-2xl">💬</span> O Que Tutores Estão Dizendo
           </h2>
         </div>
 
-        <div className="max-w-6xl mx-auto">
-            {/* Using a grid for better responsiveness than a fixed carousel in this context */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {testimonials.map((t, idx) => (
                     <div key={idx} className="rounded-lg border bg-white text-gray-900 flex flex-col justify-between shadow-lg h-full hover:shadow-xl transition-shadow duration-300">
                         <div className="flex flex-col space-y-1.5 p-6">
